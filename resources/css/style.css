@@ -5,6 +5,7 @@ body {
   background-color: black;
   text-align: center;
   display: block;
+  margin: 0;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
   width: 100%;
   height: 69px;
   z-index: 1;
+  background-color: black;
 }
 
 header img {
@@ -37,6 +39,10 @@ a {
 }
 
 div {
+  display: block;
+}
+
+h2, h4 {
   display: block;
 }
 
@@ -67,10 +73,24 @@ div {
 
 #featured-tea {
   width: 1000px;
-
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  display: block;
 }
-#featured-tea img {
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
   height: 200px;
   width: 300px;
-  justify-content: space-around;
+  display: block;
+  margin: 10px;
+}
+
+.tea span {
+  padding: 5px;
+  font-weight: bold;
 }
