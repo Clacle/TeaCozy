@@ -42,7 +42,13 @@ div {
   display: block;
 }
 
-h2, h4 {
+h2, h3, h4 {
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
   display: block;
 }
 
@@ -93,4 +99,39 @@ h2, h4 {
 .tea span {
   padding: 5px;
   font-weight: bold;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  padding-top: 70px;
+  margin-top: 80px;
+}
+
+#locations .flexcontainer {
+  margin: auto;
+  width: 1100px;
+}
+
+ .flexcontainer .locations {
+   padding-top: 5px;
+ }
+
+.location {
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.address {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
 }
